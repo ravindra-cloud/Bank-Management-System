@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Inside an Image - Bootstrap Example</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .image-container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-image: url('./icon/atm2.png');
+            /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .image-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 2rem;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            text-align: center;
+            width: 100%;
+        }
+
+        .btn-container {
+            position: absolute;
+            top: 60%;
+            /* Adjust button position */
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .btn-container .btn {
+            font-size: 1.2rem;
+            padding: 12px 20px;
+            background-color: rgba(0, 123, 255, 0.7);
+            /* Bootstrap primary color with transparency */
+            border: none;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .btn-container .btn:hover {
+            background-color: rgba(0, 123, 255, 1);
+            /* Normal primary color when hovered */
+        }
+
+        /* Responsive text scaling */
+        @media (max-width: 768px) {
+            .image-text h1 {
+                font-size: 2rem;
+            }
+
+            .btn-container .btn {
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .image-text h1 {
+                font-size: 1.5rem;
+            }
+
+            .btn-container .btn {
+                font-size: 0.9rem;
+            }
+        }
+
+        .btn1 {
+          margin-top: -110px;
+          margin-left: 440px;
+
+        }
+        .btn2{
+            margin-top: -110px;
+            /* margin-left: 440px; */
+            margin-left: 50px;
+            gap: 800px;
+
+        }
+
+
+        .flex {
+            display: flex;
+            /* justify-content:space-evenly; */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="image-container">
+        <div class="image-text flex">
+            <div class="btn1">
+
+                <a href="" class=" btn btn-primary btn2">Deposit</a>
+
+            </div>
+            <div class="btn2">
+
+                <a href="" class=" btn btn-primary btn2">Deposit</a>
+
+            </div>
+        </div>
+
+        <div class="btn-container">
+            <a href="#learn-more" class="btn btn-primary">Learn More</a>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

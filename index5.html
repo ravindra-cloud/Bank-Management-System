@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM 5</title>
+   
+    <!-- Add jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="./css/index5.css">
+</head>
+<body>
+    <section>
+        <div class="bs1">
+            <img src="./icon/atm2.png" alt="" class="bs">
+        </div>
+
+        <div class="amount">
+            <h4>ENTER AMOUNT YOU WANT TO DEPOSIT</h4>
+           
+        </div>
+        
+        <div>
+            <button type="button" class="btn" id="depositBtn">Deposit</button>
+            <button type="button" class="cash" id="cashWithdrawBtn">Cash Withdrawal</button>
+        </div>
+
+        <div>
+            <button type="button" class="btn1" id="fastCashBtn">Fast Cash</button>
+            <button type="button" class="cash3" id="cashWithdrawBtn">Mini Statement</button>
+        </div>
+        <div>
+            <button type="button" class="btn2" id="pinChangeBtn">Pin Change</button>
+            <button type="button" class="cash5" id="cashWithdrawBtn">Balance Enquery</button>
+        </div>
+        <div>
+            <button type="button" class="cash4" id="cashWithdrawBtn"><a href="index7.html  " style="text-decoration: none; color: black;" >Exit</a></button>
+        </div>
+    </section>
+
+    <script>
+        // Add click event listener to all buttons
+        $('button').on('click', function() {
+            // Add animation class to the clicked button
+            $(this).addClass('animate-btn');
+
+            // Remove animation after 0.3 seconds (time of animation)
+            setTimeout(() => {
+                $(this).removeClass('animate-btn');
+            }, 300);
+        });
+
+   </script>
+
+</body>
+</html>

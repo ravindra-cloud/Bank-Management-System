@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="./css/index4.css">
+    <!-- Add jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <section>
+        <div class="bs1">
+            <img src="./icon/atm2.png" alt="" class="bs">
+        </div>
+
+        <div class="amount">
+            <h4>ENTER AMOUNT YOU WANT TO DEPOSIT</h4>
+            <input type="number" id="numberInput" name="numberInput" step="500" value="0" min="0" class="input1">
+        </div>
+        <div>
+            <button type="button" class="btn" id="backButton"><a href="index5.html" style="text-decoration: none; color: black;"> DEPOSIT</a></button>
+        </div>
+        <!-- Back Button -->
+        <button type="button" class="btn1" id="backButton">BACK</button>
+    </section>
+
+    <script>
+        // jQuery for animation on the BACK button click
+        $('#backButton').click(function() {
+            // Example of a sliding up animation
+            $(this).slideUp(500, function() {
+                // After the animation ends, show an alert
+                alert('You pressed BACK!');
+                
+                // After the alert closes, show the button again with a fade-in effect
+                $(this).fadeIn(500); // Fade in the button in 500ms
+            });
+        });
+    </script>
+</body>
+</html>
