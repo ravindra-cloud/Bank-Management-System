@@ -1,55 +1,20 @@
-/* <style> */
-         .bs1 {
-            height: 610px;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-         }
+.dpt{
+    position: relative;
+    left: 720px;
+    bottom: 470px;
+    font-size: 16px;
+}
+.dpt1{
+    position: relative;
+    left: 720px;
+    bottom: 455px;
+    font-size: 16px;
+    width: 80px;
+}
 
-        .bs {
-            height: 600px;
-            width: 100%;
-            border: 3px transparent black;
-        }
-
-        .amount {
-            color: white;
-            margin-top: -500px;
-            margin-left: 450px;
-        }
-
-        .input1 {
-            width: 300px;
-            height: 25px;
-            border-radius: 8px;
-            background-color: rgb(250, 250, 250);
-            color: black;
-        }
-
-        .btn {
-            height: 25px;
-            border-radius: 4px;
-            background-color: rgb(250, 250, 250);
-            color: black;
-            margin-left: 700px;
-            margin-top: 61px;
-            font-size: 17px;
-        }
-
-        .btn1 {
-            width: 90px;
-            height: 25px;
-            border-radius: 4px;
-            background-color: rgb(250, 250, 250);
-            color: black;
-            margin-left: 700px;
-            margin-top: 10px;
-            font-size: 17px;
-            cursor: pointer;
-        }
-
-        /* Add a hidden class to make the button initially invisible */
-        .hidden {
-            display: none;
-        }
+.amt{
+    position: relative;
+    bottom:570px;
+    color: white;
+    left: 500px;
+}

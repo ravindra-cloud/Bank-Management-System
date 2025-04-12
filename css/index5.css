@@ -1,150 +1,70 @@
-/* <style> */
-body{
-   /* background-color: purple; */
-}
-.bs1 {
-   height: 610px;
-   width: 100%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-.bs {
-   height: 600px;
-   width: 100%;
-   border: 3px transparent black;
-}
-
-.amount {
-   color: white;
-   margin-top: -500px;
-   margin-left: 400px;
-}
-
-
-
-.btn {
+.dpt{
+   position: relative;
+   left: 420px;
+   bottom: 550px;
+   font-size: 13px;
    width: 100px;
-   height: 25px;
-   border-radius: 4px;
-   background-color: rgb(250, 250, 250);
-   color: black;
-   margin-left: 440px;
-   margin-top: 30px;
-   font-size: 13px;
-}
-
-.btn1 {
-   width: 100px;
-   height: 25px;
-   border-radius: 4px;
-   background-color: rgb(250, 250, 250);
-   color: black;
-   margin-left: 440px;
-   margin-top: 9px;
-   font-size: 13px;
-   cursor: pointer;
-}
-.btn2 {
-   width: 110px;
-   height: 25px;
-   border-radius: 4px;
-   background-color: rgb(250, 250, 250);
-   color: black;
-   margin-left: 440px;
-   margin-top: 9px;
-   font-size: 13px;
-   cursor: pointer;
-}
-.btn3 {
-   width: 110px;
-   height: 25px;
-   border-radius: 4px;
-   background-color: rgb(250, 250, 250);
-   color: black;
-   margin-left: 440px;
-   margin-top: 9px;
-   font-size: 13px;
-   cursor: pointer;
-}
-.btn4 {
-   width: 110px;
-   height: 25px;
-   border-radius: 4px;
-   background-color: rgb(250, 250, 250);
-   color: black;
-   margin-left: 900px;
-   margin-top: -600px;
-   font-size: 13px;
-   cursor: pointer;
-}
-
-/* Add a hidden class to make the button initially invisible */
-.hidden {
-   display: none;
+  height: 25px;
+  border-radius: 4px;
 }
 .cash{
-   margin-left: 130px;
-   width: 120px;
-   height: 25px;
-   border-radius: 4px;
-   background-color: rgb(250, 250, 250);
-   color: black;
-   /* margin-left: 370px;
-   margin-top: 9px; */
+   position: relative;
+   left: 690px;
+   bottom: 573px;
    font-size: 13px;
-   cursor: pointer;
-
-}
-.cash3{
-   margin-left: 130px;
    width: 120px;
-   height: 25px;
-   border-radius: 4px;
-   background-color: rgb(250, 250, 250);
-   color: black;
-   /* margin-left: 370px;
-   margin-top: 9px; */
-   font-size: 13px;
-   cursor: pointer;
-
-
+  height: 25px;
+  border-radius: 4px;
 }
-.cash5{
-   margin-left: 120px;
+
+.fastcash{
+   position: relative;
+   left: 420px;
+   bottom: 560px;
+   font-size: 13px;
+   width: 100px;
+  height: 25px;
+  border-radius: 4px;
+}
+.mini{
+   position: relative;
+   left: 690px;
+   bottom: 584px;
+   font-size: 13px;
    width: 120px;
-   height: 25px;
-   border-radius: 4px;
-   background-color: rgb(250, 250, 250);
-   color: black;
-   /* margin-left: 370px;
-   margin-top: 9px; */
-   font-size: 13px;
-   cursor: pointer;
-
-
+  height: 25px;
+  border-radius: 4px;
 }
-.cash4{
-   margin-left: 675px;
-   margin-top: 10px;
+.pin{
+   position: relative;
+   left: 420px;
+   bottom: 565px;
+   font-size: 13px;
+   width: 100px;
+  height: 25px;
+  border-radius: 4px;
+}
+.bal{
+   position: relative;
+   left: 690px;
+   bottom: 596px;
+   font-size: 13px;
    width: 120px;
-   height: 25px;
-   border-radius: 4px;
-   background-color: rgb(250, 250, 250);
-   color: black;
-   /* margin-left: 370px;
-   margin-top: 9px; */
+  height: 25px;
+  border-radius: 4px;
+}
+.exit{
+   position: relative;
+   left: 690px;
+   bottom: 582px;
    font-size: 13px;
-   cursor: pointer;
-   
+   width: 120px;
+  height: 25px;
+  border-radius: 4px;
 }
-       /* Animation for the button */
-       .animate-btn {
-   transform: scale(1.1); /* Scale up */
-   background-color: #ffcc00; /* Change background color */
-   color: white; /* Change text color */
+.amt{
+   position: relative;
+   bottom:570px;
+   color: white;
+   left: 500px;
 }
-
-
-/* </style> */

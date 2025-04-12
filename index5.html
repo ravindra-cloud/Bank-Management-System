@@ -3,54 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ATM 5</title>
-   
-    <!-- Add jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Document</title>
     <link rel="stylesheet" href="./css/index5.css">
+  
 </head>
 <body>
-    <section>
-        <div class="bs1">
-            <img src="./icon/atm2.png" alt="" class="bs">
+    <div class="card" style="width: 18rem;">
+        <img src="./icon/atm2.png" class="card-img-top" alt="ravi" style="height: 690px; width: 1500px" >
+        <div class="card-body hero">
+            <div class="amt">
+            <h3 class="card-text">Selcet Your  Choices</h3>
+            <input type="number" id="numberInput" name="numberInput" step="500" value="0" min="0" class="input1">
         </div>
-
-        <div class="amount">
-            <h4>ENTER AMOUNT YOU WANT TO DEPOSIT</h4>
-           
+          <div>
+        <button type="button" class=" card-title dpt"><a href="#" style="text-decoration: none; color: black;"> DEPOSIT</a></button>
+    </div>
+    <div>
+        <button type="button" class=" card-title cash"><a href="#" style="text-decoration: none; color: black;"> Cash Withdrawl</a></button>
+    </div>
+    <div>
+        <button type="button" class=" card-title fastcash"><a href="#" style="text-decoration: none; color: black;"> Fast Cash</a></button>
+    </div>
+    <div>
+        <button type="button" class=" card-title mini"><a href="#" style="text-decoration: none; color: black;"> Minin Statement</a></button>
+    </div>
+    <div>
+        <button type="button" class=" card-title pin"><a href="#" style="text-decoration: none; color: black;">Pin Change</a></button>
+    </div>
+    <div>
+        <button type="button" class=" card-title bal"><a href="#" style="text-decoration: none; color: black;"> Balance Enquery</a></button>
+    </div>
+    <div>
+        <button type="button" class=" card-title exit"><a href="index.html" style="text-decoration: none; color: black;"> Exit</a></button>
+    </div>
+    
         </div>
-        
-        <div>
-            <button type="button" class="btn" id="depositBtn">Deposit</button>
-            <button type="button" class="cash" id="cashWithdrawBtn">Cash Withdrawal</button>
-        </div>
-
-        <div>
-            <button type="button" class="btn1" id="fastCashBtn">Fast Cash</button>
-            <button type="button" class="cash3" id="cashWithdrawBtn">Mini Statement</button>
-        </div>
-        <div>
-            <button type="button" class="btn2" id="pinChangeBtn">Pin Change</button>
-            <button type="button" class="cash5" id="cashWithdrawBtn">Balance Enquery</button>
-        </div>
-        <div>
-            <button type="button" class="cash4" id="cashWithdrawBtn"><a href="index7.html  " style="text-decoration: none; color: black;" >Exit</a></button>
-        </div>
-    </section>
-
-    <script>
-        // Add click event listener to all buttons
-        $('button').on('click', function() {
-            // Add animation class to the clicked button
-            $(this).addClass('animate-btn');
-
-            // Remove animation after 0.3 seconds (time of animation)
-            setTimeout(() => {
-                $(this).removeClass('animate-btn');
-            }, 300);
-        });
-
-   </script>
-
+      </div>
 </body>
 </html>
